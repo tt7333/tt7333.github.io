@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>itWay</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Можливості" onclick="slowScroll('#main')">Можливості</a>
+            <a href="#" title="Переваги" onclick="slowScroll('#overview')">Переваги</a>
+            <a href="#" title="Контакти" onclick="slowScroll('#contacts')">Контакти</a>
+            <a href="#" title="Відповіді на питання" onclick="slowScroll('#faq')">Відповіді на питання</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Програмування</h1>
+        <h3>як спосіб життя!</h3>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Наші уроки допоможуть Вам стати програмістом!</h2>
+            <span>Великий вибір того, що Вам знадобиться в данній сфері діяльності</span>
+        </div>
+        <div class="text">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatem labore distinctio quos sequi sapiente molestias laudantium magni velit nulla quasi rem aliquam alias aspernatur quis, necessitatibus aut. Consequuntur ullam, minus sequi quam commodi, esse itaque quaerat est deleniti tenetur eaque rerum facilis quas maiores, dignissimos qui quasi. Nihil, aliquam!</span>
+        </div>
+    </div>
+
+
+    <div id="overview">
+        <h2>Переваги</h2>
+        <h4>З нами все легше</h4>
+        <div class="img">
+            <img src="https://habrastorage.org/webt/bw/sc/8n/bwsc8np51ystvqsvlchcn-ukvwi.jpeg" alt="">
+            <span>Мова програмування Python</span>
+        </div>
+        <div class="img">
+            <img src="https://images.ua.prom.st/427201844_w500_h500_kursi-uiuxweb-dizajnu-front-end.jpg" alt="">
+            <span>Розмітка сайту HTML, CSS, JavaScript</span>
+        </div>
+        <div class="img">
+            <img src="https://mobios.school/images/29.05.2020/2222_text.png" alt="">
+            <span>Основи PhotoShop</span>
+        </div>
+        <div class="img">
+            <img src="https://habrastorage.org/webt/yy/kk/bs/yykkbsezlqcgxo2pnmt7ot69mcy.jpeg?v=1" alt="">
+            <span>SoftSkills</span>
+        </div>
+    </div>
+
+
+
+
+<div id="contacts">
+    <center><h5>Зворотній зв'язок</h5></center>
+    <form id="form_input">
+        <label for="name">Ім'я <span>*</span></label><br>
+        <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+        <label for="email">Ваша пошта <span>*</span></label><br>
+        <input type="email" placeholder="Введите email" name="email" id="email"><br>
+        <label for="message">Повідомлення<span>*</span></label><br>
+        <textarea placeholder="Введіть ваше повідомлення" name="message" id="message"></textarea><br>
+        <div id="mess_send" class="btn">Надіслати</div>
+    </form>
+</div>
+
+
+
+<div id="faq">
+    <div>
+        <span class ="title">Оплата</span><br>
+        <span class="heading">Як буде проходити оплата?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+        <span class="heading">Як буде проходити оплата?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+    </div>
+    <div>
+        <span class="title">Інформація</span><br>
+        <span class="heading">Що входить у Ваші послуги?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+        <span class="heading">Що входить у Ваші послуги?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+    </div>
+    <div>
+        <span class="title">Гарантія</span><br>
+        <span class="heading">Які гарантії я зможу отримати?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+        <span class="heading">Які гарантії я зможу отримати?</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam? Nihil dignissimos dolores similique, odit dolor harum. Incidunt id ratione ad saepe officia natus placeat eos quam officiis expedita animi voluptate inventore temporibus aliquam repellat, ipsam consequuntur vero, repudiandae est totam esse! Facere, sit possimus adipisci minus officiis voluptate consequatur earum ut aperiam temporibus neque quasi sed modi mollitia. Nobis similique rerum repudiandae vel voluptatem in repellendus totam architecto. Dolorem!</p>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html,body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+        $(document).on("scroll",function () {
+            if($(window).scrollTop()===0)
+               $("header").removeClass("fixed");
+            else
+               $("header").attr("class","fixed");
+
+        });
+    </script>
+</body>
+</html>
